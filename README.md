@@ -1,5 +1,5 @@
 # trackWeather
-Python Application using Flask to track weather by city. Access app here: https://trackweather2022.herokuapp.com/
+Python Application using Flask to track weather by city. Access app here: https://trackweather2022.herokuapp.com
 
 # Required
 arrow==1.2.2
