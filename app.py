@@ -30,7 +30,7 @@ def weather():
     else:
     
         # collect data from weather API
-        api_key = 'a2a46c3bc8cef9e38bea15a95b6faeb5' # add your openweathermap API key here
+        api_key = '' # add your openweathermap API key here
         api_url = "https://api.openweathermap.org/data/2.5/weather?units=imperial&appid="+api_key+"&q="+city
 
         response = requests.get(api_url)
