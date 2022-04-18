@@ -1,0 +1,72 @@
+body {
+
+    background-color: #ebebeb;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 2em;
+
+}
+
+p {
+
+    color: #555555;
+
+}
+
+h2 {
+
+    color: #555555;
+    margin: 2em 0 2em 0;
+
+}
+
+table{
+
+    position: relative;
+    margin-bottom: 3em;
+    left: 40%;
+
+}
+
+td{
+    text-align: left;
+}
+
+h2.alertmessage {
+
+    color: red;
+
+}
+
+div.wrapper {
+
+    position: relative;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+
+}
+
+form input#weather {
+
+    border-radius: 5px;
+    border-style: none;
+    background-color: orange;
+    padding: 3px 7px;
+    color: black;
+
+}
+
+form input {
+
+    border-style: none;
+    border: solid 1px #555555;
+    border-radius: 5px;
+    background-color: #cbcbcb;
+    padding: 3px 7px;
+    color: white;
+
+}

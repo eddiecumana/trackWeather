@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Track Weather</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+    <div class="wrapper">
+        {% for message in get_flashed_messages() %}
+        {{ message }}
+        {% endfor %}
+        <form action="weather" method="post">
+            Enter city name <input type="text" name="city_input">
+            <input type="submit" value="CHECK NOW" id="weather">
+        </form>
+
+    </div>
+    </body>
+</html>
