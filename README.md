@@ -26,4 +26,4 @@ urllib3==1.26.9
 Werkzeug==2.1.1
 
 # Python Framework
-FLASK 2.1.1
+Flask 2.1.1
